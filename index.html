@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../imgs/ATT-Log.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="header-inner">
+        <h1 class="logo"><a href="./index.html"><img src="../imgs/ATT-Log.png" alt="ATTRACTIVE"></a></h1>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="hamburger__line"></div>
+          <div class="hamburger__line"></div>
+          <div class="hamburger__line"></div>
+        </div>
+        <div class="menu slide-right" id="menu">
+          <a href="../HTML/about.html" class="menu__item">
+            <span class="text">About</span>
+          </a>
+          <div class="menu__item menu__parent">
+            <span class="text">Service</span>
+          </div>
+          <div class="submenu">
+            <a href="../HTML/telecommunications.html" class="submenu__item">通信事業</a>
+            <a href="../HTML/ITbusiness.html" class="submenu__item">IT事業</a>
+          </div>
+          <a href="" class="menu__item">
+            <span class="text">Member</span>
+          </a>
+          <a href="" class="menu__item">
+            <span class="text">News</span>
+          </a>
+          <a href="" class="menu__item">
+            <span class="text">Recruit</span>
+          </a>
+          <a href="" class="menu__item">
+            <span class="text">Company</span>
+          </a>
+        </div>
+      </div>
+      <h2 class="AT-title">ATTRACTIVE</h2>
+    </header>
+
+    <main>
+      <section id="about">
+        <h1 class="section-title">ABOUT</h1>
+        <div class="about-text">
+          <p class="sub-title">思いをカタチにする</p>
+          <p>生活インフラを支える通信サポートと、<br>
+            企業の課題に寄り添うIT事業を中心にサービスを展開しています。<br>
+            誠実・覇気・努力を掲げ、自社サービスの開発にも挑戦中。<br>
+            通信とITの両軸で、生活とビジネスをより便利にする価値を創り続けます。
+          </p>
+          <a href="#" class="btn">more</a>
+        </div>
+      </section>
+
+      <section id="service">
+        <h1 class="section-title">SERVICE</h1>
+        <div class="service-box">
+          <div class="tb-box">
+            <svg viewbox="0 0 100 130" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+              <polygon
+                points="36,0 100,0 100,130 0,130 0,36"
+                fill="#ffffff"
+                stroke="#000000"
+                stroke-width="1"
+                vector-effect="non-scaling-stroke"></polygon>
+            </svg>
+            <div class="card"></div>
+            <div class="tb-text">
+              <p class="service-title">通信事業</p>
+              <p class="tb-Content">お客様のライフスタイルに合わせて、<br>
+                最適な通信環境を提案・サポート。<br>
+                提案・サポートに加え、<br>
+                企画・運営まで幅広く対応しています。<br><br>
+                場での対応力を活かし、<br>
+                よりよい体験を届ける事業です。<br>
+              </p>
+            </div>
+          </div>
+          <div class="tb-box">
+            <svg viewbox="0 0 100 130" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+              <polygon
+                points="36,0 100,0 100,130 0,130 0,36"
+                fill="#ffffff"
+                stroke="#000000"
+                stroke-width="1"
+                vector-effect="non-scaling-stroke"></polygon>
+            </svg>
+            <div class="card"></div>
+            <div class="tb-text">
+              <p class="service-title">IT事業</p>
+              <p class="tb-Content">
+                システム開発・運用支援を中心に、<br>
+                幅広い開発領域に対応しています。<br>
+                自社サービス展開に向け、<br>
+                開発体制を強化しています。<br><br>
+                実践的な開発力を磨きながら、<br>
+                自社サービスをの創出を目指す事業です。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="message-box">
+          <p class="message">
+            人と向き合い、技術を磨きながら価値を届けるサービスです<br>
+            経験を積み重ね、未来につながる挑戦を続けています
+          </p>
+          <a href="#" class="btn">more</a>
+        </div>
+      </section>
+
+      <section id="member">
+        <h1 class="section-title">MEMBER</h1>
+        <div class="member-list">
+          <div class="member-box">
+            <img class="member-img" src="../imgs/member1.png" alt="image">
+            <div class="text-back"></div>
+          </div>
+          <div class="member-box">
+            <img class="member-imgs" src="../imgs/member2.png" alt="image">
+            <div class="text-back back1"></div>
+          </div>
+          <div class="member-box">
+            <img class="member-img" src="../imgs/member3.png" alt="image">
+            <div class="text-back back2"></div>
+          </div>
+          <div class="member-box">
+            <img class="member-imgs" src="../imgs/member4.png" alt="image">
+            <div class="text-back back3"></div>
+          </div>
+        </div>
+
+      </section>
+      <section id="news">
+        <h1 class="section-title">NEWS</h1>
+        <div class="news-btn">
+          <a href="#" class="btn">more</a>
+        </div>
+        <dl class="news-list">
+          <dt>2025.12 .12</dt>
+          <dd>ホームページを公開しました。<br>今後はこちらで、サービス情報や取り組みについて発信していきます。</dd>
+          <dt>2025.12 .12</dt>
+          <dd>ホームページを公開しました。<br>今後はこちらで、サービス情報や取り組みについて発信していきます。</dd>
+        </dl>
+      </section>
+      <section id="recruit">
+        <h1 class="section-title">RECRUIT</h1>
+        <div class="recruit-box">
+          <div class="recruit-img">
+            <img src="../imgs/recruit.jpg" alt="写真" class="recruit-back">
+          </div>
+          <div class="recruit-text-box">
+            <p class="recruit-text">私たちと一緒に挑戦しませんか</p>
+            <p class="recruit-text2">
+              経験にとらわれず、挑戦したい気持ちを歓迎する会社です</p>
+            <p class="recruit-text3">
+              新しい挑戦を恐れず、前に進みたい人へ<br>
+              ここは挑戦し合い、励まし合いながら成長できる仲間がいます<br>
+              あなたの一歩が、チームの未来を大きく変えていきます
+            </p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </section>
+      <section id="company">
+        <h1 class="section-title">COMPANY</h1>
+        <div class="company-info">
+          <div class="company-line"></div>
+          <dl class="company-list">
+            <div class="company-row">
+              <dt>社名</dt>
+              <dd>ATTRACTIVE合同会社</dd>
+            </div>
+            <div class="company-row">
+              <dt>設立</dt>
+              <dd>2022年 11月 9日</dd>
+            </div>
+            <div class="company-row">
+              <dt>代表者</dt>
+              <dd></dd>
+            </div>
+            <div class="company-row">
+              <dt>住所</dt>
+              <dd>〒227-0062<br>神奈川県横浜市青葉区青葉台1丁目5-4 サンクスビル3F41
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>
