@@ -24,7 +24,7 @@ p {
 }
 
 #header {
-  height: 600px;
+  height: 700px;
   position: relative;
 }
 #header::before {
@@ -35,7 +35,7 @@ p {
   left: 0;
   right: 0;
   background: linear-gradient(180deg,#fff,#8da0b6);
-  transform: skewY(-7deg) translateY(-200px);
+  transform: skewY(-7deg) translateY(-270px);
   z-index: -2;
 }
 .header-inner {
@@ -153,6 +153,7 @@ p {
 .submenu__item:hover {
   opacity: 1;
 }
+
 .title {
   position: absolute;
   font-size: 7vw;
@@ -214,4 +215,117 @@ p {
 .detail-text-title {
   font-size: 2vw;
   margin-bottom: 10px;
+}
+
+#it-mes {
+  margin-top: 150px;
+}
+.it-mes-box {
+  display: flex;
+}
+.it-img {
+  max-width: 800px;
+}
+.mes-text {
+  height: 350px;
+  margin-top: 150px;
+}
+.it-mes-title {
+  font-size: 3vw;
+}
+.it-mes-text {
+  margin-left: 50px;
+}
+.it-mes-text p {
+  margin-top: 30px;
+}
+
+#footer {
+  background: #555;
+  color: #fff;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  flex: 2;
+}
+.footer-nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer-nav a:hover {
+  opacity: 0.7;
+}
+.footer-company {
+  position: relative;
+  max-width: 360px;
+}
+.footer-logo {
+  position: relative;
+  left: -40px;
+  bottom: -20px;
+  width: 200%;
+  opacity: 0.3;
+}
+.footer-company-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.footer-logo-text {
+  font-size: 36px;
+  letter-spacing: 0.3em;
+  margin-bottom: 4px;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.5;
+  font-style: normal;
+}
+.footer-right {
+  flex: 1;
+  display: flex;
+  gap: 150px;
+}
+.footer-line {
+  width: 1.5px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.footer-contact {
+  display: flex;
+  align-items: center;
+}
+.footer-contact-text p:first-child {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.footer-contact-text p:nth-child(2) {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: #fff;
+  color: #555;
 }
