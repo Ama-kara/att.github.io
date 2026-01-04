@@ -55,7 +55,6 @@ p {
   cursor: pointer;
   z-index: 9999;
 }
-
 .hamburger__line {
   position: absolute;
   width: 30px;
@@ -82,7 +81,6 @@ p {
 .hamburger.open .hamburger__line {
   background-color: #8da0b6;
 }
-
 .menu {
   position: fixed;
   top: 80px;
@@ -100,7 +98,6 @@ p {
   padding: 50px;
   gap: 10px;
 }
-
 .menu.open {
   opacity: 1;
   transform: translateX(0);
@@ -144,18 +141,15 @@ p {
   padding-left: 15px;
   margin-bottom: 20px;
 }
-
 .submenu.open {
   display: flex;
 }
-
 .submenu__item {
   color: #fff;
   font-size: 14px;
   text-decoration: none;
   opacity: 0.9;
 }
-
 .submenu__item:hover {
   opacity: 1;
 }
@@ -300,11 +294,23 @@ p {
 }
 
 #member {
-  height: 700px;
+  height: 800px;
+}
+.member-title {
+  position: relative;
+}
+.member-item {
+  position: absolute;
+}
+.member-btn {
+  position: absolute;
+  padding-top: 50px;
+  left: 800px;
 }
 .member-list {
   display: flex;
   justify-content: center;
+  padding-top: 180px;
 }
 .member-img {
   width: 300px;
@@ -421,6 +427,10 @@ p {
 }
 .recruit-text3 {
   padding-bottom: 20px;
+}
+.recruit-btn {
+  color: #000;
+  border: 1px solid #000;
 }
 
 #company {
