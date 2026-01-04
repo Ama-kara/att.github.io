@@ -24,9 +24,19 @@ p {
 }
 
 #header {
-  height: 750px;
+  height: 700px;
   position: relative;
-  background-color: rgba(141, 160, 182, 0.5);
+}
+#header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg,#fff,#8da0b6);
+  transform: skewY(-7deg) translateY(-270px);
+  z-index: -2;
 }
 .header-inner {
   display: flex;
@@ -45,7 +55,6 @@ p {
   cursor: pointer;
   z-index: 9999;
 }
-
 .hamburger__line {
   position: absolute;
   width: 30px;
@@ -72,7 +81,6 @@ p {
 .hamburger.open .hamburger__line {
   background-color: #8da0b6;
 }
-
 .menu {
   position: fixed;
   top: 80px;
@@ -235,4 +243,94 @@ p {
   margin: 190px 970px;
   border-left: 2px solid#c24c44;
   padding: 0 0 50px 16px;
+}
+
+#footer {
+  background: #555;
+  color: #fff;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  flex: 2;
+}
+.footer-nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer-nav a:hover {
+  opacity: 0.7;
+}
+.footer-company {
+  position: relative;
+  max-width: 360px;
+}
+.footer-logo {
+  position: relative;
+  left: -40px;
+  bottom: -20px;
+  width: 200%;
+  opacity: 0.3;
+}
+.footer-company-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.footer-logo-text {
+  font-size: 36px;
+  letter-spacing: 0.3em;
+  margin-bottom: 4px;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.5;
+  font-style: normal;
+}
+.footer-right {
+  flex: 1;
+  display: flex;
+  gap: 150px;
+}
+.footer-line {
+  width: 1.5px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.footer-contact {
+  display: flex;
+  align-items: center;
+}
+.footer-contact-text p:first-child {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.footer-contact-text p:nth-child(2) {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: #fff;
+  color: #555;
 }
